@@ -12,4 +12,10 @@ public class SwaController {
         return "<h1>Welcome to my Simple Spring Web App!</h1>";
     }
 
+    @GetMapping("/secured")    
+    public String secureContent(){
+        return "<h1><span color=red>This is my Secured Web App!</span></h1>";
+ 
+    }
+
 }
