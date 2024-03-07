@@ -14,7 +14,7 @@ public class SwaController {
 
     @GetMapping("/secured")    
     public String secureContent(){
-        return "<h1><span color=red>This is my Secured Web App!</span></h1>";
+        return "<h1>This is my Secured Web App!</h1>";
  
     }
 
